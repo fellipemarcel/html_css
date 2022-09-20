@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexíveis</title>
+</head>
+<body>
+    <h1>Imagens Flexíveis de verdade</h1>
+    <p>Veja como funcionam as imagens flexíveis!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.jpg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.jpg" type="image/jpeg">
+        <img src="imagens/foto-g.jpg" alt="Foto Grande">
+        
+    </picture>
+</body>
+</html>

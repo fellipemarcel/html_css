@@ -1,0 +1,23 @@
+
+ {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+
+a:active {
+    color: gold;
+}
+
+a::before {
+    content: "⇒";
+}
+
+a::after {
+    content: "⇐";
+}
